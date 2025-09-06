@@ -1,0 +1,157 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: url("plain-beige") no-repeat center / cover;
+}
+.container {
+    position: relative;
+    height: 100%;
+    background: rgb(211, 238, 238);
+    border-radius: 30px;
+}
+header{
+    position :fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#222;
+    z-index: 100;
+
+}
+.Home{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+.logo {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    border-bottom: 2px solid transparent;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    border-color:beige
+}
+p {
+  color: black;
+}
+
+h1, h2 {
+  color: black;
+}
+
+
+.Home{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    gap:50px;
+    padding: 50px 5% 0;
+    color:#f4eeee;
+}
+.Home-detail h1 {
+    font-size: 55px;
+    line-height:1;
+
+}
+
+.Home-detail h1 {
+    font-size: 32px;
+}
+
+.Home-detail li  {
+    font-size: 25px;
+}
+.Home-detail p {
+    margin: 10px 0 20px;
+}
+
+.Skills {
+  margin-top: 120px;
+  padding: 60px 5%;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 15px;
+  color: #fff;
+}
+
+.Skills h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #ffcc00;
+}
+
+.Skills ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
+.Skills li {
+  font-size: 20px;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+
+.Skills li:hover {
+  color: #ffcc00;
+  transform: translateX(5px);
+}
+
+.Contact {
+  margin-top: 120px;
+  padding: 60px 5%;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 15px;
+  color: #fff;
+}
+
+.Contact h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #ffcc00;
+}
+
+.Contact p {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.Contact a {
+  color: #ffcc00;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.Contact a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.h1 {
+  text-align: center;
+  margin: 35px 0 20px 0 !important;
+}
+
