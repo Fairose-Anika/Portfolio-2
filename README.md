@@ -2,7 +2,7 @@
 
 Welcome to **Fairose Anika's Portfolio Website**, showcasing my projects, skills, and contact info.
 
-🌐 **Live Demo:** [https://fairose-anika.github.io/PORTFOLIO/](https://fairose-anika.github.io/PORTFOLIO/)
+🌐 **Live Demo:** [https://fairose-anika.github.io/PORTFOLIO/](https://fairose-anika.github.io/Portfolio-2/)
 
 ## Features
  Responsive design for all devices
